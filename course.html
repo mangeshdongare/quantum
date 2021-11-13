@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Of Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css" 
+    integrity="sha512-F7WyTLiiiPqvu2pGumDR15med0MDkUIo5VTVyyfECR5DZmCnDhti9q5VID02ItWjq6fvDfMaBaDl2J3WdL1uxA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+      <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            
+            <a href="College.html"> </a>
+            <div class="navlinks"  id="navLinks">
+               
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="course.html">COURSES</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+    
+
+                </ul>
+            </div>
+        
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>Our Courses </h1>
+    </section>
+   <!-- courses -->
+   <section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Bachelor Of Engineering</p>
+
+    <div class="row">
+      <div class="course-col">
+            <h3>Mechanical Engineering</h3>
+            <p>One of the oldest and broadest fields of engineering, Mechanical engineering
+                 deals with the design, construction, and use of machines.</p>
+                 </div> 
+             <div class="course-col">
+                    <h3>Electrical Engineering</h3>
+                    <p>Electrical Engineering is that branch of Engineering which deals 
+                        with the study of application of electricity, electronics and electromagnetism.</p>
+                         </div>
+                         <div class="course-col">
+                            <h3>Computer Engineering</h3>
+                            <p>The BE Computer Engineering course covers every aspect of Computer Engineering in great detail.</p>
+                            </div>
+        
+    </div>
+</section>
+    
+</section>
+<!-- facilities -->
+<section class="facilities">
+<h1>Our Facilities</h1>
+<p>COT strives to provide the best possible facilities to enable 
+    our students to benefit from a modern learning environment</p>
+<div class="row">
+
+    <div class="facilities-col">
+        <img src="library.jpg">
+        <h3>World Class Library</h3>
+        <p>The new Library block is located in an easily accessible area near the Administrative Block, Laboratories, Placement Cell and Class Rooms
+            . Total area of the Library is 23142 Sq.feet (2349 Sq.M.)</p>
+    </div>
+    <div class="facilities-col">
+        <img src="play.jpg">
+        <h3>Largest Play Ground</h3>
+        <p>Sports is given equal weightage as academics. A sports village with a total area of 30 Acres is dedicated for sports activities. </p>
+    </div>
+    <div class="facilities-col">
+        <img src="canteen.jpg">
+        <h3>Canteen</h3>
+        <p>The management is fully committed to keeping the quality of the canteen for the utmost benefit of all concerned.</p>
+    </div>
+</div>
+
+</section>
+
+
+
+</section>
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quisquam eligendi odit consequatur tenetur sunt ab culpa suscipit ipsam unde illo neque,
+        <br> enim explicabo, reiciendis nemo natus nisi voluptatem ad?</p>
+    <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-linkedin"></i>
+        
+    </div>
+
+    </section>
+    <div class="Dev">
+        Developed by Mangesh Dongare
+    </div>
+
+
+
+
+<!----javacript for toggle Menu-->
+   <script>
+
+       var navLinks = document.getElementById("navLinks")
+       function showMenu() {
+           navLinks.style.right="0"; 
+       }
+       function hideMenu() {
+           navLinks.style.right="-200px"; 
+       }
+   </script>
+        
+</body>
+</html>
